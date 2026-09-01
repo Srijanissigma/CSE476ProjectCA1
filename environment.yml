@@ -1,0 +1,10 @@
+name: Agent
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pip>=24
+  - pip:
+      - -r requirements.txt

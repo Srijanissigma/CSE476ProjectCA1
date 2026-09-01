@@ -1,0 +1,18 @@
+# Secret Keys & Environment Variables
+.env
+*.env
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv/

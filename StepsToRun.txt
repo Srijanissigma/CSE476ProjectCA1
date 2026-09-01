@@ -1,0 +1,10 @@
+git clone https://github.com/Agent/CSE476ProjectCA1.git
+cd CSE476ProjectCA1
+
+conda env create -f environment.yml
+conda activate Agent
+pip install -e .
+
+pyhton setup_check.py
+
+python -m ipykernel install --user --name Agent --display-name "Python (Agent)"
