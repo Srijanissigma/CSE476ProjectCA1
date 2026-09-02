@@ -8,3 +8,7 @@
 
 ## 3. Honest Failure & Resolution:
  During initial integration, tool execution failed with **BadRequestError** and **NotFoundError** exceptions due to Groq model API updates and incompatible tool-calling specs on specific endpoints (e.g., allam-2-7b and llama-3.3-70b-versatile). I resolved this by adding an automated model resolution block (PREFERRED_TOOL_MODELS) to query active endpoints dynamically and safely fall back to verified function-calling models like llama-3.1-8b-instant.
+
+## Changes
+
+Model Updated to **openai/gpt-oss-120b** from **llama-3.1-8b-instant(EXPIRED MODEL)**
